@@ -1,0 +1,168 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+
+}
+.hero_section{
+    background-color: #2F1893;
+    height: 800px;
+    width: 1340px;
+}
+
+.hero_nav{
+    display: flex;
+}
+#logo_text{
+    color: white;
+}
+/* a opacity */
+#a_opacity{
+    opacity: 20%;
+}
+ul li{
+    float: left;
+    text-decoration: none;  
+    list-style-type: none;
+}
+ul li a{
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+    text-decoration: none; 
+
+}
+/* first button styling*/
+button{
+    border-radius: 20px;
+    height: 40px;
+    width: 120px;
+    font-size: 17px;
+    background-color: crimson;
+    border-color: crimson;
+    color: white;
+}
+#logo_text{
+    margin-top: 70px;
+  position: relative;
+  left: 220px;
+  font-size: 25px;
+   
+}
+/* navbar styling */
+.hero_nav ul{
+    margin-left: 550px;
+    margin-top: 70px;
+    
+}
+.hero_nav button{
+    margin-top: 65px;
+}
+/* hero section container 1 styling*/
+.hero_section_text{
+    margin: 40px;
+    margin-left: 220px;
+}
+#text1{
+    font-size: 27px;
+    color: white;
+}
+#text2{
+   color: white;
+   font-size: 19px;
+
+
+}
+/* hero section container 2 styling*/
+.hero_section_container2{
+    border-radius: 10px;
+    height: 500px;
+    width: 430px;
+    background-color: white;
+    position: relative;
+    left: 500px;
+    bottom: 400px;
+}
+
+
+.hero_section_container2_text h1{
+    text-align: center;
+    color: #2F1893;
+   
+}
+input{
+    border-radius: 20px;
+    border-color: black;
+    height: 35px;
+    width: 250px;
+    color: black;
+ 
+}
+.hero_section_container2_text input{
+    margin-left: 90px;
+    
+}
+
+#input_checkbox{
+    height: 13px;
+    width: 13px;
+   position: relative;
+   top: 3px;
+   
+}
+#btn8{
+    border-radius: 20px;
+    border-color: black;
+    background-color:blue;
+    color: white;
+    height: 35px;
+    width: 255px;
+   
+}
+/* or text before after*/
+h5{
+    margin-left: 120px;
+    font-size: 15px;
+}
+h5::before{
+    content: "";
+    width: 120px;
+    height: 2px;
+    display: block;
+    background: black;
+    position: relative;
+   left: -125px;
+   top: 11px;
+}
+h5::after{
+    content: "";
+    width: 120px;
+    height: 2px;
+    display: block;
+    background: black;
+    position: relative;
+   left: 20px;
+   bottom: 7px;
+}
+#btn9{
+    border-radius: 20px;
+    border-color: black;
+    background-color:rgba(0, 60, 255, 0.929);
+    color: white;
+    height: 35px;
+    width: 255px;
+    font-weight: 500;
+    border-color: rgba(0, 60, 255, 0.929);;
+}
+.hero_section_btn{
+    margin-left: 90px;
+}
+p{
+    margin-left: 29px;
+  
+}
+p a{
+    color: aqua;
+  
+}
